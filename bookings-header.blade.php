@@ -8,7 +8,7 @@
 
 <!-- Right-side icons container -->
 <div class="flex items-center gap-4">
-<!-- Replace your dropdown bell icon with this simple link -->
+<!-- bell icon -->
 <a href="{{ route('notifications.index') }}" class="relative">
     <i class="w-[25px] h-[25px] text-airbnb-light" data-lucide="bell"></i>
     <!-- notification badge -->
