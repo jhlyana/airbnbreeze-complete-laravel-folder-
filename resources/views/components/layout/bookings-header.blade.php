@@ -4,6 +4,40 @@
         <img src="{{ asset('assets/images/air-logo.png') }}" alt="AirBnBreeze Logo" class="h-[50px] w-[50px] border border-airbnb-light rounded-full object-cover">
         <span class="font-righteous text-[28px] font-normal text-airbnb-light">AirBnBreeze</span>
     </a>
+
+    <!-- Search Bar and Filters -->
+<div class="flex items-center max-w-5xl w-full justify-center">
+    <!-- Search Input -->
+    <div class="flex bg-airbnb-light rounded-full shadow-md items-center">
+        <button class="flex items-center gap-1 bg-transparent py-1.5 px-4 rounded-full text-airbnb-darkest">
+            <i class="w-5 h-5 mr-1" data-lucide="map-pin"></i>
+            <span class="text-xl font-medium">Cebu City</span>
+        </button>
+        <div class="border-r border-gray-900 h-12 my-auto"></div>
+        
+        <button class="flex items-center gap-1 bg-transparent py-1.5 px-4 rounded-full text-airbnb-darkest">
+            <i class="w-5 h-5 mr-1" data-lucide="calendar"></i>
+            <span class="text-xl font-medium">24/06/25 - 30/06/25</span>
+        </button>
+        <div class="border-r border-gray-900 h-12 my-auto"></div>
+        
+        <button class="flex items-center bg-transparent py-1.5 px-4 rounded-full text-airbnb-darkest">
+            <div class="flex items-center gap-1">
+                <i class="w-5 h-5 mr-1" data-lucide="door-open"></i>
+                <span class="text-xl font-medium">2</span>
+            </div>
+            <div class="flex items-center ml-5">
+                <i class="w-5 h-5 mr-1" data-lucide="users"></i>
+                <span class="text-xl font-medium"> 5</span>
+            </div>
+        </button>
+        <div class="border-r border-gray-900 h-12 my-auto"></div>
+        
+        <button class="bg-airbnb-darkest text-airbnb-light p-2 rounded-full ml-2 mr-2">
+            <i class="w-5 h-5" data-lucide="search"></i>
+        </button>
+    </div>
+</div>
    
     <!-- Right-side icons container -->
     <div class="flex items-center gap-4">
