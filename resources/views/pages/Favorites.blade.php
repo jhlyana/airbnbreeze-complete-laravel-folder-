@@ -52,13 +52,13 @@
     </div>
 </header>
 
-<div class="bg-[#E3EED4] min-h-screen pt-24 pb-12">
-    <div class="max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8">
+<div class="bg-[#E3EED4] min-h-screen pt-[4rem] md:pt-[7.5rem] pb-[2rem]">
+    <div class="max-w-[1750px] mx-auto px-[1rem] sm:px-[1.5rem] md:px-[2rem] lg:px-[4rem] xl:px-[8rem]">
         <!-- Favorites Title -->
-        <h1 class="text-2xl sm:text-[32px] font-semibold text-airbnb-darkest mb-5">My Favorites</h1>
+        <h1 class="text-[1.5rem] sm:text-[1.75rem] font-semibold text-airbnb-darkest mb-[1rem] sm:mb-[1.25rem]">My Favorites</h1>
         
         <!-- Property Cards Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-[1.5rem] sm:mb-[2rem]">
             <!-- Property Card 1 -->
             <div class="card relative rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 font-montserrat">
                 <!-- Remove Button -->
@@ -72,18 +72,18 @@
                     <img src="{{ asset('assets/images/HOUSE (1).png') }}" alt="Limosnero's Private House" class="w-full h-[200px] object-cover">
                     
                     <!-- Property Details -->
-                    <div class="p-3">
-                        <h3 class="text-sm font-bold mb-1">Limosnero's Private House</h3>
-                        <p class="text-airbnb-darkest text-xs mb-2">Minglanilla, Cebu</p>
+                    <div class="p-3 sm:p-4">
+                        <h3 class="text-sm sm:text-base font-bold mb-1">Limosnero's Private House</h3>
+                        <p class="text-airbnb-darkest text-xs sm:text-sm mb-2">Minglanilla, Cebu</p>
                         
                         <div class="flex justify-between items-center mt-2">
-                            <p class="text-xs">
+                            <p class="text-xs sm:text-sm">
                                 <span class="font-normal">₱</span> 
                                 <strong>1800</strong> / night
                             </p>
                             
                             <!-- Rating Badge -->
-                            <div class="flex items-center gap-1 bg-airbnb-darkest text-airbnb-light px-2 py-1 rounded-lg text-xs font-semibold">
+                            <div class="flex items-center gap-1 bg-airbnb-darkest text-airbnb-light px-2 py-1 rounded-lg text-xs sm:text-sm font-semibold">
                                 <i data-lucide="star" class="w-3 h-3 text-gold fill-gold"></i> 
                                 4.7
                             </div>
@@ -105,18 +105,18 @@
                     <img src="{{ asset('assets/images/HOUSE (2).png') }}" alt="Limosnero's Private House" class="w-full h-[200px] object-cover">
                     
                     <!-- Property Details -->
-                    <div class="p-3">
-                        <h3 class="text-sm font-bold mb-1">Limosnero's Private House</h3>
-                        <p class="text-airbnb-darkest text-xs mb-2">Minglanilla, Cebu</p>
+                    <div class="p-3 sm:p-4">
+                        <h3 class="text-sm sm:text-base font-bold mb-1">Limosnero's Private House</h3>
+                        <p class="text-airbnb-darkest text-xs sm:text-sm mb-2">Minglanilla, Cebu</p>
                         
                         <div class="flex justify-between items-center mt-2">
-                            <p class="text-xs">
+                            <p class="text-xs sm:text-sm">
                                 <span class="font-normal">₱</span> 
                                 <strong>1900</strong> / night
                             </p>
                             
                             <!-- Rating Badge -->
-                            <div class="flex items-center gap-1 bg-airbnb-darkest text-airbnb-light px-2 py-1 rounded-lg text-xs font-semibold">
+                            <div class="flex items-center gap-1 bg-airbnb-darkest text-airbnb-light px-2 py-1 rounded-lg text-xs sm:text-sm font-semibold">
                                 <i data-lucide="star" class="w-3 h-3 text-gold fill-gold"></i> 
                                 4.8
                             </div>
@@ -138,18 +138,18 @@
                     <img src="{{ asset('assets/images/HOUSE (3).png') }}" alt="Limosnero's Private House" class="w-full h-[200px] object-cover">
                     
                     <!-- Property Details -->
-                    <div class="p-3">
-                        <h3 class="text-sm font-bold mb-1">Limosnero's Private House</h3>
-                        <p class="text-airbnb-darkest text-xs mb-2">Minglanilla, Cebu</p>
+                    <div class="p-3 sm:p-4">
+                        <h3 class="text-sm sm:text-base font-bold mb-1">Limosnero's Private House</h3>
+                        <p class="text-airbnb-darkest text-xs sm:text-sm mb-2">Minglanilla, Cebu</p>
                         
                         <div class="flex justify-between items-center mt-2">
-                            <p class="text-xs">
+                            <p class="text-xs sm:text-sm">
                                 <span class="font-normal">₱</span> 
                                 <strong>1900</strong> / night
                             </p>
                             
                             <!-- Rating Badge -->
-                            <div class="flex items-center gap-1 bg-airbnb-darkest text-airbnb-light px-2 py-1 rounded-lg text-xs font-semibold">
+                            <div class="flex items-center gap-1 bg-airbnb-darkest text-airbnb-light px-2 py-1 rounded-lg text-xs sm:text-sm font-semibold">
                                 <i data-lucide="star" class="w-3 h-3 text-gold fill-gold"></i> 
                                 4.9
                             </div>
@@ -160,8 +160,8 @@
         </div>
         
         <!-- Add More Favorites -->
-        <div class="text-center py-6">
-            <p class="text-airbnb-darkest italic mb-4">Add more favorites?</p>
+        <div class="text-center py-[1.5rem] sm:py-[2rem]">
+            <p class="text-airbnb-darkest italic mb-[1rem] sm:mb-[1.25rem]">Add more favorites?</p>
             <a href="{{ route('home') }}" class="inline-block bg-[#375534] text-[#E3EED4] py-2 px-8 sm:py-2.5 sm:px-10 rounded-full hover:bg-opacity-90 transition-colors">
                 Browse
             </a>
